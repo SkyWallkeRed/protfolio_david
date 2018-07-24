@@ -1,0 +1,27 @@
+.nav{
+    font-family: 'Overlock', cursive;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 50px;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+}
+.navContent{
+    padding-top: 3%;
+    font-size: 2em;
+    font-family: 'Overlock', cursive;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 50px;
+    opacity: 0.5;
+    text-align: center;
+}
+.navBtn{
+    cursor: pointer;
+    padding: 1%;
+}
+

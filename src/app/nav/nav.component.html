@@ -1,0 +1,16 @@
+<p-sidebar [(visible)]="display" position="top">
+  <div class="navContent">
+    <span class="navBtn">
+      <!-- [routerLink]="['/home']" -->
+      Home
+    </span>
+    <span class="navBtn">
+      Projects
+    </span>
+    <span class="navBtn">
+      About
+    </span>
+  </div>
+</p-sidebar>
+
+<div class="nav" type="text" (click)="display = true" pButton icon="pi pi-plus" label="Show">menu</div>
